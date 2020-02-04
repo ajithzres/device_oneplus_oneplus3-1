@@ -214,7 +214,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap \
+    HyperCam /
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service
 
