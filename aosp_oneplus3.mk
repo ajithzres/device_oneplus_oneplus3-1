@@ -22,7 +22,7 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
+TARGET_GAPPS_ARCH := arm64
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
 
